@@ -255,7 +255,7 @@ int main(int argc, char *argv[])
      float asset_price = atof(argv[2]);
      float volatality = atof(argv[3])/100.0;
      float risk_free_rate = atof(argv[4])/100.0;
-     float days_to_exp = atof(argv[5])/250.0;
+     float days_to_exp = atof(argv[5])/365.0;
      
      float cprice = atof(argv[6]);
      float pprice = atof(argv[7]);
